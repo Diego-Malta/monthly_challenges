@@ -16,8 +16,9 @@ monthly_challenges = {
   "september": "Learn Django for at least 20 minutes every day!",
   "october": "Walk for at least 20 minutes every day!",
   "november": "Learn Python",
-  "december": "Learn Django for at least 20 minutes every day!"
+  "december": None
 }
+# "december": "Learn Django for at least 20 minutes every day!"
 
 def index(request):
   months = list(monthly_challenges.keys())
