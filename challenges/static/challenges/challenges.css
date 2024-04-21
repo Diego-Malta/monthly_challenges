@@ -21,11 +21,11 @@ li {
     padding-bottom: 1rem;
 }
 
-li:last-of-type, li:nth-child(6){
-    /* border-bottom: none; */
+/* li:last-of-type, li:nth-child(6){
+    border-bottom: none;
     background-color: blue;
-    /* padding-bottom: -5rem; */
-}
+    padding-bottom: -5rem;
+} */
 
 li a {
     text-decoration: none;
