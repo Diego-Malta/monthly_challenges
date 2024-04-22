@@ -1,0 +1,7 @@
+@media (max-width: 768px) {
+    ul {
+        max-width: 30rem;
+        flex-wrap: nowrap;
+        height: auto;
+    }
+}

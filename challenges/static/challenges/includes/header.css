@@ -1,24 +1,31 @@
-header{
-  width: 100%;
-  height: 5rem;
-  background-color: #353535;
+header {
+    width: 100%;
+    height: 5rem;
+    /* background-color: #353535; */
+    background: rgb(166, 165, 165);
+    background: linear-gradient(
+        90deg,
+        rgba(166, 165, 165, 1) 0%,
+        rgba(53, 53, 53, 1) 50%
+    );
 }
 
 header nav {
-  width: 100%;
-  height: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 header nav a {
-  color: white;
-  font-size: 2rem;
-  font-weight: bold;
-  text-decoration: none;
+    color: white;
+    font-size: 2rem;
+    font-weight: bold;
+    text-decoration: none;
 }
 
-header nav a:hover, header nav a:active {
-  color: #4c79f5;
+header nav a:hover,
+header nav a:active {
+    color: #4c79f5;
 }

@@ -10,28 +10,31 @@ ul {
     flex-direction: column;
     flex-wrap: wrap;
     height: 32rem;
-    background-color: #eeeeee;
+    background: rgb(238, 238, 238);
+    background: linear-gradient(
+        90deg,
+        rgba(238, 238, 238, 1) 0%,
+        rgba(182, 182, 182, 1) 50%
+    );
 }
 
 li {
     margin: 1rem 0;
     text-align: center;
     font-size: 1.5rem;
-    /* border-bottom: 1px solid #ccc; */
     padding-bottom: 1rem;
 }
 
-/* li:last-of-type, li:nth-child(6){
-    border-bottom: none;
-    background-color: blue;
-    padding-bottom: -5rem;
-} */
+li:nth-child(n + 6) a:hover {
+    color: #654cf5;
+}
 
 li a {
     text-decoration: none;
-    color: #383838
+    color: #383838;
 }
 
-li a:hover, li a:active {
+li a:hover,
+li a:active {
     color: #4c79f5;
 }
